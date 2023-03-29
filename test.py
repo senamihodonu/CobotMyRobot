@@ -9,3 +9,4 @@ from pymycobot.mybuddy import MyBuddy
 
 mycobot = MyCobot("/dev/ttyAMA0", 115200)
 mycobot.send_angles([0,0,0,0,0,0], 80)
+mycobot.send_angles([1,1,1,0,0,0], 80)
