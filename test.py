@@ -7,5 +7,5 @@ from pymycobot.mypalletizer import MyPalletizer
 # for myBuddy
 from pymycobot.mybuddy import MyBuddy
 
-mycobot = MyCobot()
+mycobot = MyCobot("/dev/ttyAMA0", 115200)
 mycobot.send_angles([0,0,0,0,0,0], 80)
