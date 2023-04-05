@@ -2,7 +2,7 @@ import rclpy
 from rclpy.action import ActionServer
 from rclpy.node import Node
 
-from cobot_action_interface import SetAngle
+from action_interfaces import SetAngle
 
 # for mycobot,mecharm
 from pymycobot.mycobot import MyCobot
