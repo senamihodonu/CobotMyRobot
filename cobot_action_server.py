@@ -15,7 +15,7 @@ mycobot = MyCobot("/dev/ttyAMA0", 115200)
 class SetAngleActionServer(Node):
 
     def __init__(self):
-        super.__init__('set_angle_action_server')
+        super().__init__('set_angle_action_server')
         self._action_server = ActionServer(
             self,
             SetAngle,
