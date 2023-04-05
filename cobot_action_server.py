@@ -35,7 +35,7 @@ class SetAngleActionServer(Node):
     
 def main(args=None):
 
-    rclply.init(args=args)
+    rclpy.init(args=args)
 
     set_angle_action_server = SetAngleActionServer()
 
