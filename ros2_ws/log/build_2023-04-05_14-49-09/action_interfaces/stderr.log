@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:28 (rodigl_generate_interfaces):
+  Unknown CMake command "rodigl_generate_interfaces".
+
+[0m

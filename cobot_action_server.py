@@ -4,6 +4,14 @@ from rclpy.node import Node
 
 from cobot_action_interface import SetAngle
 
+# for mycobot,mecharm
+from pymycobot.mycobot import MyCobot
+
+# Set-up Cobot Phase -----
+mycobot = MyCobot("/dev/ttyAMA0", 115200)
+
+# -----
+
 class SetAngleActionServer(Node):
 
     def __init__(self):
@@ -16,10 +24,17 @@ class SetAngleActionServer(Node):
         
     def execute_callback(self, goal_handle):
         self.get_logger().info('Executing goal...')
+
+        mycobot.SetAngle(goal_handle.request.angles, 80)
+
+        goal_handle.succeed()
+
         result = SetAngle.Result()
+        result.result = True
         return result
     
 def main(args=None):
+
     rclply.init(args=args)
 
     set_angle_action_server = SetAngleActionServer()

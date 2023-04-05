@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:28 (rosigl_generate_interfaces):
+  Unknown CMake command "rosigl_generate_interfaces".
+
+[0m

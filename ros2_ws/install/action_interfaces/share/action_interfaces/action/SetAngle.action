@@ -1,0 +1,11 @@
+# Request
+
+int16[6] angles
+
+---
+# Result
+
+bool result
+
+---
+# Feedback
