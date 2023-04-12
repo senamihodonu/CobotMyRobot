@@ -1,0 +1,171 @@
+[0.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.368s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7bc9a52470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7bca4087f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7bca4087f0>>)
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.395s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cdwiench/Desktop/Robotics/CobotMyRobot'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/action_interfaces) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/action_interfaces' with type 'ros.ament_cmake' and name 'action_interfaces'
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.450s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/cdwiench/Desktop/Robotics/CobotMyRobot/install
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'action_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces', 'merge_install': False, 'path': '/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/src/action_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.455s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/src/action_interfaces' with build type 'ament_cmake'
+[0.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/src/action_interfaces'
+[0.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces': /usr/bin/cmake --build /home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces -- -j8 -l8
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces' returned '0': /usr/bin/cmake --build /home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces -- -j8 -l8
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces': /usr/bin/cmake --install /home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces
+[0.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_interfaces)
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces' returned '0': /usr/bin/cmake --install /home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces' for CMake module files
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces' for CMake config files
+[0.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'cmake_prefix_path')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.sh'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib'
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'ld_library_path_lib')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/bin'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/pkgconfig/action_interfaces.pc'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/python3.10/site-packages'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/bin'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.bash'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.zsh'
+[1.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/colcon-core/packages/action_interfaces)
+[1.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_interfaces)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces' for CMake module files
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces' for CMake config files
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'cmake_prefix_path')
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.sh'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib'
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'ld_library_path_lib')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.sh'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/pkgconfig/action_interfaces.pc'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/python3.10/site-packages'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/bin'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.sh'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.bash'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.zsh'
+[1.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/colcon-core/packages/action_interfaces)
+[1.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.089s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.089s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.096s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.107s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/local_setup.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/_local_setup_util_ps1.py'
+[1.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/setup.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/local_setup.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/_local_setup_util_sh.py'
+[1.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/setup.sh'
+[1.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/local_setup.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/setup.bash'
+[1.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/local_setup.zsh'
+[1.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/setup.zsh'

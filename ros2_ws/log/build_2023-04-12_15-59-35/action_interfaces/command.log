@@ -1,0 +1,2 @@
+Invoking command in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/build/action_interfaces': /usr/bin/cmake --build /home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/build/action_interfaces -- -j8 -l8
+Invoked command in '/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/build/action_interfaces' returned '2': /usr/bin/cmake --build /home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/build/action_interfaces -- -j8 -l8
