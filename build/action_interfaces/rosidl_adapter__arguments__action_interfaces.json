@@ -1,6 +1,0 @@
-{
-  "package_name": "action_interfaces",
-  "non_idl_tuples": [
-    "/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/src/action_interfaces:action/SetAngle.action"
-  ]
-}

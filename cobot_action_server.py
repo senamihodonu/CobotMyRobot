@@ -34,7 +34,7 @@ class SetAngleActionServer(Node):
         goal_handle.succeed()
 
         result = SetAngle.Result()
-        result.result = mycobot.get_angles()
+        result.end_angles = mycobot.get_angles()
         return result
     
 def main(args=None):
