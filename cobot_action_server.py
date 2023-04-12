@@ -25,12 +25,16 @@ class SetAngleActionServer(Node):
     def execute_callback(self, goal_handle):
         self.get_logger().info('Executing goal...')
 
-        mycobot.SetAngle(goal_handle.request.angles, 80)
+        mycobot.send_angles(goal_handle.request.angles, 80)
+
+        while(mycobot.is_moving()):
+            print("Cobot in motion")
+            mycobot.wait(1)
 
         goal_handle.succeed()
 
         result = SetAngle.Result()
-        result.result = True
+        result.result = mycobot.get_angles()
         return result
     
 def main(args=None):
