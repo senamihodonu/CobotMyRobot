@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 cobot_action_client.py

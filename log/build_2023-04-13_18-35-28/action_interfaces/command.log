@@ -1,0 +1,4 @@
+Invoking command in '/home/iRETI/504/CobotMyRobot/build/action_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iRETI/504/CobotMyRobot/build/action_interfaces -- -j12 -l12
+Invoked command in '/home/iRETI/504/CobotMyRobot/build/action_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iRETI/504/CobotMyRobot/build/action_interfaces -- -j12 -l12
+Invoking command in '/home/iRETI/504/CobotMyRobot/build/action_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iRETI/504/CobotMyRobot/build/action_interfaces
+Invoked command in '/home/iRETI/504/CobotMyRobot/build/action_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iRETI/504/CobotMyRobot/build/action_interfaces

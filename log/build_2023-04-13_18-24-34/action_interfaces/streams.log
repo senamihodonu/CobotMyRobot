@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/iRETI/504/CobotMyRobot/build/action_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iRETI/504/CobotMyRobot/ros2_ws/src/action_interfaces -DCMAKE_INSTALL_PREFIX=/home/iRETI/504/CobotMyRobot/install/action_interfaces
+[0.016s] [33mCMake Warning (dev) at CMakeLists.txt:29:
+[0.017s]   Syntax Warning in cmake code at column 26
+[0.017s] 
+[0.017s]   Argument not separated from preceding token by whitespace.
+[0.017s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.017s] [0m
+[0.086s] -- The C compiler identification is GNU 11.3.0
+[0.156s] -- The CXX compiler identification is GNU 11.3.0
+[0.164s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.300s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.852s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.929s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.991s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.077s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.077s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[1.077s]   the CMAKE_CURRENT_SOURCE_DIR
+[1.077s]   '/home/iRETI/504/CobotMyRobot/ros2_ws/src/action_interfaces'
+[1.077s] Call Stack (most recent call first):
+[1.077s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.077s] 
+[1.077s] [0m
+[1.077s] -- Configuring incomplete, errors occurred!
+[1.077s] See also "/home/iRETI/504/CobotMyRobot/build/action_interfaces/CMakeFiles/CMakeOutput.log".
+[1.080s] Invoked command in '/home/iRETI/504/CobotMyRobot/build/action_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iRETI/504/CobotMyRobot/ros2_ws/src/action_interfaces -DCMAKE_INSTALL_PREFIX=/home/iRETI/504/CobotMyRobot/install/action_interfaces

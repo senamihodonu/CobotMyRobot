@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (action_interfaces) JobQueued: {'identifier': 'action_interfaces', 'dependencies': OrderedDict()}
+[0.000155] (action_interfaces) JobStarted: {'identifier': 'action_interfaces'}
+[0.008935] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'cmake'}
+[0.009259] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/iRETI/504/CobotMyRobot/ros2_ws/src/action_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/iRETI/504/CobotMyRobot/install/action_interfaces'], 'cwd': '/home/iRETI/504/CobotMyRobot/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iRETI'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iRETI'), ('OLDPWD', '/home/iRETI/504'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iRETI'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'iRETI'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/iRETI/anaconda3/bin:/opt/ros/humble/bin:/home/iRETI/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/silverBlacK:@/tmp/.ICE-unix/2610,unix/silverBlacK:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a5f61ad_7c36_43f6_b99e_71f5b099593b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iRETI/504/CobotMyRobot/build/action_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098704] (-) TimerEvent: {}
+[0.101827] (action_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.168889] (action_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.177367] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.198837] (-) TimerEvent: {}
+[0.233187] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.240793] (action_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.241112] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.241908] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.245355] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298977] (-) TimerEvent: {}
+[0.313150] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.320792] (action_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.320963] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.321595] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325943] (action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399105] (-) TimerEvent: {}
+[0.499388] (-) TimerEvent: {}
+[0.599690] (-) TimerEvent: {}
+[0.700002] (-) TimerEvent: {}
+[0.800296] (-) TimerEvent: {}
+[0.900597] (-) TimerEvent: {}
+[0.910915] (action_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.000743] (-) TimerEvent: {}
+[1.006443] (action_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.073460] (action_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.076665] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.083484] (action_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.100843] (-) TimerEvent: {}
+[1.125862] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200980] (-) TimerEvent: {}
+[1.301301] (-) TimerEvent: {}
+[1.401643] (-) TimerEvent: {}
+[1.415752] (action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.501776] (-) TimerEvent: {}
+[1.581157] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601853] (-) TimerEvent: {}
+[1.702135] (-) TimerEvent: {}
+[1.790532] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.802250] (-) TimerEvent: {}
+[1.809837] (action_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[1.811210] (action_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.835033] (action_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[1.835215] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.835280] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.835338] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.854271] (action_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.892346] (action_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.893639] (action_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.899125] (action_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902353] (-) TimerEvent: {}
+[1.924921] (action_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.927010] (action_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/iRETI/504/CobotMyRobot/build/action_interfaces\n'}
+[1.937021] (action_interfaces) CommandEnded: {'returncode': 0}
+[1.937940] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'build'}
+[1.938010] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iRETI/504/CobotMyRobot/build/action_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/iRETI/504/CobotMyRobot/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iRETI'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iRETI'), ('OLDPWD', '/home/iRETI/504'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iRETI'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'iRETI'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/iRETI/anaconda3/bin:/opt/ros/humble/bin:/home/iRETI/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/silverBlacK:@/tmp/.ICE-unix/2610,unix/silverBlacK:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a5f61ad_7c36_43f6_b99e_71f5b099593b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iRETI/504/CobotMyRobot/build/action_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.966933] (action_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.974790] (action_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.982372] (action_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_action_interfaces\n'}
+[2.002501] (-) TimerEvent: {}
+[2.102799] (-) TimerEvent: {}
+[2.203136] (-) TimerEvent: {}
+[2.303454] (-) TimerEvent: {}
+[2.335186] (action_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.336201] (action_interfaces) StdoutLine: {'line': b'creating action_interfaces.egg-info\n'}
+[2.352248] (action_interfaces) StdoutLine: {'line': b'writing action_interfaces.egg-info/PKG-INFO\n'}
+[2.352550] (action_interfaces) StdoutLine: {'line': b'writing dependency_links to action_interfaces.egg-info/dependency_links.txt\n'}
+[2.352910] (action_interfaces) StdoutLine: {'line': b'writing top-level names to action_interfaces.egg-info/top_level.txt\n'}
+[2.353061] (action_interfaces) StdoutLine: {'line': b"writing manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[2.398674] (action_interfaces) StdoutLine: {'line': b"reading manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[2.399408] (action_interfaces) StdoutLine: {'line': b"writing manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[2.403561] (-) TimerEvent: {}
+[2.439798] (action_interfaces) StdoutLine: {'line': b'[  6%] Built target action_interfaces__cpp\n'}
+[2.448613] (action_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.448861] (action_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.448994] (action_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.456070] (action_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_action_interfaces_egg\n'}
+[2.456481] (action_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_interfaces/action/detail/set_angle__functions.c.o\x1b[0m\n'}
+[2.503727] (-) TimerEvent: {}
+[2.604038] (-) TimerEvent: {}
+[2.609406] (action_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.646748] (action_interfaces) StdoutLine: {'line': b'[ 22%] Built target action_interfaces__rosidl_generator_c\n'}
+[2.656818] (action_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.657119] (action_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.657293] (action_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.704146] (-) TimerEvent: {}
+[2.804481] (-) TimerEvent: {}
+[2.826830] (action_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_interfaces/action/set_angle__type_support.cpp.o\x1b[0m\n'}
+[2.897904] (action_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interfaces/action/detail/set_angle__type_support.cpp.o\x1b[0m\n'}
+[2.904573] (-) TimerEvent: {}
+[2.958576] (action_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_interfaces/action/detail/dds_fastrtps/set_angle__type_support.cpp.o\x1b[0m\n'}
+[3.004700] (-) TimerEvent: {}
+[3.059481] (action_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_interfaces/action/set_angle__type_support.cpp.o\x1b[0m\n'}
+[3.104805] (-) TimerEvent: {}
+[3.110690] (action_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.150877] (action_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interfaces/action/detail/set_angle__type_support.c.o\x1b[0m\n'}
+[3.153927] (action_interfaces) StdoutLine: {'line': b'[ 51%] Built target action_interfaces__rosidl_typesupport_c\n'}
+[3.203417] (action_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libaction_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.204896] (-) TimerEvent: {}
+[3.232199] (action_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_interfaces/action/detail/set_angle__type_support_c.cpp.o\x1b[0m\n'}
+[3.234531] (action_interfaces) StdoutLine: {'line': b'[ 58%] Built target action_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.305036] (-) TimerEvent: {}
+[3.382999] (action_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.405180] (-) TimerEvent: {}
+[3.421131] (action_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_interfaces__rosidl_typesupport_cpp\n'}
+[3.505380] (-) TimerEvent: {}
+[3.568137] (action_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.605464] (-) TimerEvent: {}
+[3.620250] (action_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.620411] (action_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.634090] (action_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.695838] (action_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.696055] (action_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.705545] (-) TimerEvent: {}
+[3.709747] (action_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_interfaces\n'}
+[3.724281] (action_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.805641] (-) TimerEvent: {}
+[3.905954] (-) TimerEvent: {}
+[4.006255] (-) TimerEvent: {}
+[4.106565] (-) TimerEvent: {}
+[4.206897] (-) TimerEvent: {}
+[4.307178] (-) TimerEvent: {}
+[4.407462] (-) TimerEvent: {}
+[4.431094] (action_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_interfaces__py\n'}
+[4.445501] (action_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_interfaces/action/_set_angle_s.c.o\x1b[0m\n'}
+[4.507607] (-) TimerEvent: {}
+[4.585111] (action_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/libaction_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[4.607749] (-) TimerEvent: {}
+[4.617269] (action_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_interfaces__rosidl_generator_py\n'}
+[4.635070] (action_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.635293] (action_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.635417] (action_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.707899] (-) TimerEvent: {}
+[4.752047] (action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.752222] (action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.752305] (action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.788570] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.788739] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.788818] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.796541] (action_interfaces) CommandEnded: {'returncode': 0}
+[4.807993] (-) TimerEvent: {}
+[4.833257] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'install'}
+[4.840642] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iRETI/504/CobotMyRobot/build/action_interfaces'], 'cwd': '/home/iRETI/504/CobotMyRobot/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iRETI'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iRETI'), ('OLDPWD', '/home/iRETI/504'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iRETI'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'iRETI'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/iRETI/anaconda3/bin:/opt/ros/humble/bin:/home/iRETI/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/silverBlacK:@/tmp/.ICE-unix/2610,unix/silverBlacK:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a5f61ad_7c36_43f6_b99e_71f5b099593b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iRETI/504/CobotMyRobot/build/action_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.847178] (action_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.847489] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_interfaces\n'}
+[4.847680] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[4.847847] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[4.847979] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/set_angle.h\n'}
+[4.848056] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[4.848291] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__struct.h\n'}
+[4.848382] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__functions.h\n'}
+[4.848466] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__type_support.h\n'}
+[4.848585] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__functions.c\n'}
+[4.848665] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[4.848748] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.848856] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/library_path.sh\n'}
+[4.848955] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/library_path.dsv\n'}
+[4.849051] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so\n'}
+[4.849453] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.849563] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[4.849646] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[4.849770] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[4.849850] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[4.849933] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[4.850007] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.850129] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.850338] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.850458] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[4.850532] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[4.850605] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[4.850691] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_introspection_c.h\n'}
+[4.850764] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__type_support.c\n'}
+[4.850867] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[4.850940] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.851034] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.851261] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.851393] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so\n'}
+[4.851711] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.851817] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[4.851964] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[4.852033] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[4.852103] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__traits.hpp\n'}
+[4.852200] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__struct.hpp\n'}
+[4.852274] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__builder.hpp\n'}
+[4.852371] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/set_angle.hpp\n'}
+[4.852445] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[4.852535] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[4.852604] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[4.852674] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.852774] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/dds_fastrtps\n'}
+[4.852844] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[4.852919] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.853403] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.853663] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.853760] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[4.853867] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[4.853940] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[4.854012] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__type_support.cpp\n'}
+[4.854119] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.854412] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.854706] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.855062] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.855311] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.855391] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/pythonpath.sh\n'}
+[4.855474] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/pythonpath.dsv\n'}
+[4.855584] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.855672] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.855761] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.855866] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.855955] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.856042] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces\n'}
+[4.856126] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py\n'}
+[4.856216] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.856305] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.856411] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action\n'}
+[4.856501] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py\n'}
+[4.856593] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_set_angle.py\n'}
+[4.856681] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_set_angle_s.c\n'}
+[4.856802] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.856927] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/libaction_interfaces__rosidl_generator_py.so\n'}
+[4.857051] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.857178] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.857382] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.892436] (action_interfaces) StdoutLine: {'line': b"Listing '/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces'...\n"}
+[4.892607] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py'...\n"}
+[4.892679] (action_interfaces) StdoutLine: {'line': b"Listing '/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action'...\n"}
+[4.892738] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py'...\n"}
+[4.892794] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_set_angle.py'...\n"}
+[4.896697] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.897101] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.897490] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.897798] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.898100] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.898363] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.898651] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so\n'}
+[4.898908] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iRETI/504/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.899040] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/action/SetAngle.idl\n'}
+[4.899196] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/action/SetAngle.action\n'}
+[4.899282] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/package_run_dependencies/action_interfaces\n'}
+[4.899377] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/parent_prefix_path/action_interfaces\n'}
+[4.899478] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.sh\n'}
+[4.899542] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.899629] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/path.sh\n'}
+[4.899695] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/path.dsv\n'}
+[4.899781] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.bash\n'}
+[4.899870] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.sh\n'}
+[4.899955] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.zsh\n'}
+[4.900051] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.dsv\n'}
+[4.900162] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.dsv\n'}
+[4.900282] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/packages/action_interfaces\n'}
+[4.900702] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.900795] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.901074] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.901206] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.901631] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.901787] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.902091] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.902247] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.902486] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.902750] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.902883] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.903162] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.903293] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.903568] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.903693] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.903968] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.904096] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.904219] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.904339] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.904462] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.904577] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.904697] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.904812] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.904928] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.905044] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig.cmake\n'}
+[4.905136] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig-version.cmake\n'}
+[4.905258] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iRETI/504/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.xml\n'}
+[4.907503] (action_interfaces) CommandEnded: {'returncode': 0}
+[4.908833] (-) TimerEvent: {}
+[4.975138] (action_interfaces) JobEnded: {'identifier': 'action_interfaces', 'rc': 0}
+[4.975489] (-) EventReactorShutdown: {}
