@@ -51,7 +51,7 @@ class SetAngleActionServer(Node):
 class PickUPActionServer(Node):
 
     def __init__(self):
-        super().__init__('set_angle_action_server')
+        super().__init__('pick_up_action_server')
         self._action_server = ActionServer(
             self,
             PickUP,
