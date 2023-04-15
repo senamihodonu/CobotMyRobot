@@ -1,8 +1,10 @@
+#!/bin/python3
+
 import rclpy
 from rclpy.action import ActionServer
 from rclpy.node import Node
 
-from action_interfaces.action import SetAngle
+from action_interfaces.action import SetAngle, PickUP
 
 # for mycobot,mecharm
 from pymycobot.mycobot import MyCobot
@@ -46,13 +48,42 @@ class SetAngleActionServer(Node):
         # result.end_angles = mycobot.get_angles()
         return result
     
+class PickUPActionServer(Node):
+
+    def __init__(self):
+        super().__init__('set_angle_action_server')
+        self._action_server = ActionServer(
+            self,
+            PickUP,
+            'pickup',
+            self.execute_callback)
+
+    def execute_callback(self, goal_handle):
+        self.get_logger().info('Executing goal...')
+
+        grip = 0 if goal_handle.request.open else 1
+        goalComplete = True
+        try:
+            mycobot.set_gripper_state(grip, 50)
+            mycobot.wait(2)
+        except Exception as e:
+            print(f'{e}')
+            goalComplete = False
+
+        goal_handle.succeed()
+
+        result = PickUP.Result()
+        result.status = goalComplete
+        return result
+
 def main(args=None):
 
     rclpy.init(args=args)
 
     set_angle_action_server = SetAngleActionServer()
+    pick_up_action_server = PickUPActionServer()
 
-    rclpy.spin(set_angle_action_server)
+    rclpy.spin()
 
 if __name__ == '__main__':
     main()
