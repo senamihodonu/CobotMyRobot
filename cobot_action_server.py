@@ -80,10 +80,18 @@ def main(args=None):
 
     rclpy.init(args=args)
 
-    set_angle_action_server = SetAngleActionServer()
-    pick_up_action_server = PickUPActionServer()
+    actionQueue = []
+    actionQueue.append(SetAngleActionServer())
+    actionQueue.append(PickUPActionServer())
 
-    rclpy.spin()
+    while rclpy.ok():
+        try:
+            for node in actionQueue:
+                rclpy.spin_once(node, timeout_sec=(0.01 / len(actionQueue)))
+        except:
+            print("An action queue error has occured")
+            rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
