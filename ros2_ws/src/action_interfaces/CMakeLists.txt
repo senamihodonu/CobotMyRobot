@@ -27,7 +27,10 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"action/SetAngle.action"
+  "action/GetAngle.action"
 	"action/PickUP.action"
+  "action/SetCoord.action"
+  "action/GetCoord.action"
 )
 
 ament_package()

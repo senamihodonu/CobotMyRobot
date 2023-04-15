@@ -1,4 +1,10 @@
+action/GetAngle.action
+action/GetAngle.idl
+action/GetCoord.action
+action/GetCoord.idl
 action/PickUP.action
 action/PickUP.idl
 action/SetAngle.action
 action/SetAngle.idl
+action/SetCoord.action
+action/SetCoord.idl

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_interfaces/action/GetCoord.action
+// generated code does not contain a copyright notice
+
+
+module action_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GetCoord_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    typedef double double__6[6];
+    @verbatim (language="comment", text=
+      "Result")
+    struct GetCoord_Result {
+      double__6 end_coords;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct GetCoord_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_interfaces/action/GetAngle.action
+// generated code does not contain a copyright notice
+
+
+module action_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GetAngle_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    typedef double double__6[6];
+    @verbatim (language="comment", text=
+      "Result")
+    struct GetAngle_Result {
+      double__6 end_angles;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct GetAngle_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

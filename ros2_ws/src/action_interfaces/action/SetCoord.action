@@ -1,0 +1,13 @@
+# Request
+
+float64[6] coords
+
+int16 speed 80
+
+---
+# Result
+
+float64[6] end_coords
+
+---
+# Feedback
