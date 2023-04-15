@@ -1,0 +1,11 @@
+# Request
+
+bool open
+
+---
+# Result
+
+bool status
+
+---
+# Feedback

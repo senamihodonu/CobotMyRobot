@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (action_interfaces) JobQueued: {'identifier': 'action_interfaces', 'dependencies': OrderedDict()}
+[0.000309] (action_interfaces) JobStarted: {'identifier': 'action_interfaces'}
+[0.029664] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'cmake'}
+[0.030423] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/cdwiench/Desktop/Robotics/CobotMyRobot/ros2_ws/src/action_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces'], 'cwd': '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cdwiench'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cdwiench'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a20efdec25611c651bb276c643a1fdd'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cdwiench'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'cdwiench'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cdwiench/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cdwiench-Acer:@/tmp/.ICE-unix/2185,unix/cdwiench-Acer:/tmp/.ICE-unix/2185'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/003e57a7_7daf_4fc9_8871_f02e776a8fba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a20efdec25611c651bb276c643a1fdd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/cdwiench/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097069] (-) TimerEvent: {}
+[0.197711] (-) TimerEvent: {}
+[0.298230] (-) TimerEvent: {}
+[0.399172] (-) TimerEvent: {}
+[0.493869] (action_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.499287] (-) TimerEvent: {}
+[0.599730] (-) TimerEvent: {}
+[0.700485] (-) TimerEvent: {}
+[0.801186] (-) TimerEvent: {}
+[0.836637] (action_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.858033] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901389] (-) TimerEvent: {}
+[1.001822] (-) TimerEvent: {}
+[1.008769] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.025653] (action_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.026575] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.028040] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.036440] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101982] (-) TimerEvent: {}
+[1.202383] (-) TimerEvent: {}
+[1.204394] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.221724] (action_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.222458] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.223552] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.236087] (action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.302528] (-) TimerEvent: {}
+[1.402924] (-) TimerEvent: {}
+[1.503302] (-) TimerEvent: {}
+[1.603809] (-) TimerEvent: {}
+[1.609774] (action_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.703961] (-) TimerEvent: {}
+[1.804369] (-) TimerEvent: {}
+[1.821722] (action_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.904520] (-) TimerEvent: {}
+[1.987715] (action_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.997404] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.004657] (-) TimerEvent: {}
+[2.015255] (action_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.104805] (-) TimerEvent: {}
+[2.133724] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.204960] (-) TimerEvent: {}
+[2.305380] (-) TimerEvent: {}
+[2.405774] (-) TimerEvent: {}
+[2.506165] (-) TimerEvent: {}
+[2.606559] (-) TimerEvent: {}
+[2.706967] (-) TimerEvent: {}
+[2.807397] (-) TimerEvent: {}
+[2.892332] (action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.907481] (-) TimerEvent: {}
+[3.007848] (-) TimerEvent: {}
+[3.108243] (-) TimerEvent: {}
+[3.208639] (-) TimerEvent: {}
+[3.309041] (-) TimerEvent: {}
+[3.317287] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.409199] (-) TimerEvent: {}
+[3.509603] (-) TimerEvent: {}
+[3.610004] (-) TimerEvent: {}
+[3.710398] (-) TimerEvent: {}
+[3.810798] (-) TimerEvent: {}
+[3.865605] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.910948] (-) TimerEvent: {}
+[3.916125] (action_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[3.919732] (action_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.981763] (action_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[3.982050] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.982210] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.982359] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.011094] (-) TimerEvent: {}
+[4.027593] (action_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.111254] (-) TimerEvent: {}
+[4.127794] (action_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.131989] (action_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.147037] (action_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.211433] (-) TimerEvent: {}
+[4.228960] (action_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.234803] (action_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces\n'}
+[4.251666] (action_interfaces) CommandEnded: {'returncode': 0}
+[4.252986] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'build'}
+[4.255236] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cdwiench'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cdwiench'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a20efdec25611c651bb276c643a1fdd'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cdwiench'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'cdwiench'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cdwiench/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cdwiench-Acer:@/tmp/.ICE-unix/2185,unix/cdwiench-Acer:/tmp/.ICE-unix/2185'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/003e57a7_7daf_4fc9_8871_f02e776a8fba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a20efdec25611c651bb276c643a1fdd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/cdwiench/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.311555] (-) TimerEvent: {}
+[4.328925] (action_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.347472] (action_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.363557] (action_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_action_interfaces\n'}
+[4.411695] (-) TimerEvent: {}
+[4.512177] (-) TimerEvent: {}
+[4.612653] (-) TimerEvent: {}
+[4.713120] (-) TimerEvent: {}
+[4.813607] (-) TimerEvent: {}
+[4.914064] (-) TimerEvent: {}
+[5.014511] (-) TimerEvent: {}
+[5.026968] (action_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.028185] (action_interfaces) StdoutLine: {'line': b'creating action_interfaces.egg-info\n'}
+[5.028601] (action_interfaces) StdoutLine: {'line': b'writing action_interfaces.egg-info/PKG-INFO\n'}
+[5.028951] (action_interfaces) StdoutLine: {'line': b'writing dependency_links to action_interfaces.egg-info/dependency_links.txt\n'}
+[5.029286] (action_interfaces) StdoutLine: {'line': b'writing top-level names to action_interfaces.egg-info/top_level.txt\n'}
+[5.033389] (action_interfaces) StdoutLine: {'line': b"writing manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[5.038521] (action_interfaces) StdoutLine: {'line': b"reading manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[5.039929] (action_interfaces) StdoutLine: {'line': b"writing manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[5.089562] (action_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_action_interfaces_egg\n'}
+[5.114629] (-) TimerEvent: {}
+[5.215066] (-) TimerEvent: {}
+[5.315467] (-) TimerEvent: {}
+[5.415925] (-) TimerEvent: {}
+[5.516316] (-) TimerEvent: {}
+[5.616724] (-) TimerEvent: {}
+[5.717112] (-) TimerEvent: {}
+[5.817534] (-) TimerEvent: {}
+[5.892841] (action_interfaces) StdoutLine: {'line': b'[  5%] Built target action_interfaces__cpp\n'}
+[5.910791] (action_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_interfaces/action/detail/pick_up__functions.c.o\x1b[0m\n'}
+[5.912624] (action_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.913028] (action_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.914961] (action_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_interfaces/action/detail/set_angle__functions.c.o\x1b[0m\n'}
+[5.917336] (action_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.917756] (-) TimerEvent: {}
+[6.018188] (-) TimerEvent: {}
+[6.118840] (-) TimerEvent: {}
+[6.219525] (-) TimerEvent: {}
+[6.320219] (-) TimerEvent: {}
+[6.328166] (action_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaction_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.405385] (action_interfaces) StdoutLine: {'line': b'[ 20%] Built target action_interfaces__rosidl_generator_c\n'}
+[6.420350] (-) TimerEvent: {}
+[6.424992] (action_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.432002] (action_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.434265] (action_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.520484] (-) TimerEvent: {}
+[6.621279] (-) TimerEvent: {}
+[6.722211] (-) TimerEvent: {}
+[6.823136] (-) TimerEvent: {}
+[6.924068] (-) TimerEvent: {}
+[7.024836] (-) TimerEvent: {}
+[7.125613] (-) TimerEvent: {}
+[7.165515] (action_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_interfaces/action/set_angle__type_support.cpp.o\x1b[0m\n'}
+[7.169978] (action_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_interfaces/action/pick_up__type_support.cpp.o\x1b[0m\n'}
+[7.225740] (-) TimerEvent: {}
+[7.262683] (action_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interfaces/action/detail/pick_up__type_support.cpp.o\x1b[0m\n'}
+[7.263135] (action_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interfaces/action/detail/set_angle__type_support.cpp.o\x1b[0m\n'}
+[7.325860] (-) TimerEvent: {}
+[7.426663] (-) TimerEvent: {}
+[7.527444] (-) TimerEvent: {}
+[7.627897] (-) TimerEvent: {}
+[7.728379] (-) TimerEvent: {}
+[7.828876] (-) TimerEvent: {}
+[7.929418] (-) TimerEvent: {}
+[7.949889] (action_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_interfaces/action/set_angle__type_support.cpp.o\x1b[0m\n'}
+[8.001637] (action_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_interfaces/action/detail/dds_fastrtps/set_angle__type_support.cpp.o\x1b[0m\n'}
+[8.029560] (-) TimerEvent: {}
+[8.130115] (-) TimerEvent: {}
+[8.144683] (action_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_interfaces/action/pick_up__type_support.cpp.o\x1b[0m\n'}
+[8.230256] (-) TimerEvent: {}
+[8.308882] (action_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.321051] (action_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_interfaces/action/detail/set_angle__type_support_c.cpp.o\x1b[0m\n'}
+[8.330406] (-) TimerEvent: {}
+[8.431919] (-) TimerEvent: {}
+[8.485284] (action_interfaces) StdoutLine: {'line': b'[ 51%] Built target action_interfaces__rosidl_typesupport_c\n'}
+[8.510372] (action_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_interfaces/action/detail/pick_up__type_support_c.cpp.o\x1b[0m\n'}
+[8.532058] (-) TimerEvent: {}
+[8.633060] (-) TimerEvent: {}
+[8.729873] (action_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interfaces/action/detail/set_angle__type_support.c.o\x1b[0m\n'}
+[8.733193] (-) TimerEvent: {}
+[8.834073] (-) TimerEvent: {}
+[8.902060] (action_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_interfaces/action/detail/dds_fastrtps/pick_up__type_support.cpp.o\x1b[0m\n'}
+[8.904338] (action_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interfaces/action/detail/pick_up__type_support.c.o\x1b[0m\n'}
+[8.934225] (-) TimerEvent: {}
+[8.960879] (action_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.034374] (-) TimerEvent: {}
+[9.064376] (action_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libaction_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.123986] (action_interfaces) StdoutLine: {'line': b'[ 66%] Built target action_interfaces__rosidl_typesupport_cpp\n'}
+[9.134519] (-) TimerEvent: {}
+[9.162391] (action_interfaces) StdoutLine: {'line': b'[ 66%] Built target action_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.234677] (-) TimerEvent: {}
+[9.335746] (-) TimerEvent: {}
+[9.351214] (action_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.435890] (-) TimerEvent: {}
+[9.516243] (action_interfaces) StdoutLine: {'line': b'[ 69%] Built target action_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.536048] (-) TimerEvent: {}
+[9.636471] (-) TimerEvent: {}
+[9.736906] (-) TimerEvent: {}
+[9.752630] (action_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.837057] (-) TimerEvent: {}
+[9.915045] (action_interfaces) StdoutLine: {'line': b'[ 71%] Built target action_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.937214] (-) TimerEvent: {}
+[10.037629] (-) TimerEvent: {}
+[10.138043] (-) TimerEvent: {}
+[10.238458] (-) TimerEvent: {}
+[10.303367] (action_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.338595] (-) TimerEvent: {}
+[10.439093] (-) TimerEvent: {}
+[10.455338] (action_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.492744] (action_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_interfaces\n'}
+[10.530006] (action_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.539244] (-) TimerEvent: {}
+[10.639612] (-) TimerEvent: {}
+[10.740003] (-) TimerEvent: {}
+[10.840391] (-) TimerEvent: {}
+[10.940781] (-) TimerEvent: {}
+[11.041174] (-) TimerEvent: {}
+[11.141541] (-) TimerEvent: {}
+[11.242037] (-) TimerEvent: {}
+[11.342422] (-) TimerEvent: {}
+[11.442806] (-) TimerEvent: {}
+[11.543191] (-) TimerEvent: {}
+[11.643547] (-) TimerEvent: {}
+[11.743942] (-) TimerEvent: {}
+[11.844340] (-) TimerEvent: {}
+[11.944726] (-) TimerEvent: {}
+[12.045110] (-) TimerEvent: {}
+[12.145495] (-) TimerEvent: {}
+[12.245852] (-) TimerEvent: {}
+[12.346214] (-) TimerEvent: {}
+[12.446601] (-) TimerEvent: {}
+[12.546989] (-) TimerEvent: {}
+[12.647387] (-) TimerEvent: {}
+[12.747766] (-) TimerEvent: {}
+[12.848155] (-) TimerEvent: {}
+[12.948535] (-) TimerEvent: {}
+[13.048924] (-) TimerEvent: {}
+[13.149311] (-) TimerEvent: {}
+[13.249696] (-) TimerEvent: {}
+[13.350080] (-) TimerEvent: {}
+[13.382138] (action_interfaces) StdoutLine: {'line': b'[ 76%] Built target action_interfaces__py\n'}
+[13.419617] (action_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_interfaces/action/_pick_up_s.c.o\x1b[0m\n'}
+[13.420078] (action_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_interfaces/action/_set_angle_s.c.o\x1b[0m\n'}
+[13.450226] (-) TimerEvent: {}
+[13.550615] (-) TimerEvent: {}
+[13.651035] (-) TimerEvent: {}
+[13.751464] (-) TimerEvent: {}
+[13.804427] (action_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/libaction_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.851583] (-) TimerEvent: {}
+[13.888488] (action_interfaces) StdoutLine: {'line': b'[ 84%] Built target action_interfaces__rosidl_generator_py\n'}
+[13.926072] (action_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.926635] (action_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.926984] (action_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.951742] (-) TimerEvent: {}
+[14.052236] (-) TimerEvent: {}
+[14.152729] (-) TimerEvent: {}
+[14.244415] (action_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.249518] (action_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.250057] (action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.252862] (-) TimerEvent: {}
+[14.329597] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[14.332650] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.333602] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.353000] (-) TimerEvent: {}
+[14.355255] (action_interfaces) CommandEnded: {'returncode': 0}
+[14.453127] (-) TimerEvent: {}
+[14.509346] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'install'}
+[14.526543] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces'], 'cwd': '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cdwiench'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cdwiench'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a20efdec25611c651bb276c643a1fdd'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cdwiench'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'cdwiench'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cdwiench/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cdwiench-Acer:@/tmp/.ICE-unix/2185,unix/cdwiench-Acer:/tmp/.ICE-unix/2185'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/003e57a7_7daf_4fc9_8871_f02e776a8fba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cdwiench/Desktop/Robotics/CobotMyRobot/build/action_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a20efdec25611c651bb276c643a1fdd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/cdwiench/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.540786] (action_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.541136] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_interfaces\n'}
+[14.541525] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[14.541894] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[14.542064] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.542451] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[14.542771] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/set_angle.h\n'}
+[14.543138] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/pick_up.h\n'}
+[14.543397] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[14.543660] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__struct.h\n'}
+[14.543808] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__type_support.h\n'}
+[14.544043] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__struct.h\n'}
+[14.544268] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__functions.h\n'}
+[14.544838] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__functions.h\n'}
+[14.545737] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__type_support.h\n'}
+[14.546139] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__functions.c\n'}
+[14.546748] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__functions.c\n'}
+[14.547481] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/library_path.sh\n'}
+[14.547796] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/library_path.dsv\n'}
+[14.553246] (-) TimerEvent: {}
+[14.555405] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so\n'}
+[14.557059] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.557519] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[14.557776] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[14.558226] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.558471] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[14.558708] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[14.558852] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__rosidl_typesupport_fastrtps_c.h\n'}
+[14.558994] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[14.560278] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.561863] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.562147] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[14.562420] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[14.562581] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.562902] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[14.563093] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[14.563484] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__rosidl_typesupport_introspection_c.h\n'}
+[14.563655] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_introspection_c.h\n'}
+[14.563856] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__type_support.c\n'}
+[14.564293] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__type_support.c\n'}
+[14.566028] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.567732] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.569070] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so\n'}
+[14.570423] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.570800] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[14.571016] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[14.571230] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/set_angle.hpp\n'}
+[14.571404] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/pick_up.hpp\n'}
+[14.571746] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[14.571927] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__struct.hpp\n'}
+[14.572277] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__builder.hpp\n'}
+[14.572674] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__struct.hpp\n'}
+[14.573162] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__traits.hpp\n'}
+[14.573601] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__builder.hpp\n'}
+[14.573989] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__traits.hpp\n'}
+[14.574511] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[14.574838] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[14.575101] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.575439] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[14.575602] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[14.575743] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/dds_fastrtps\n'}
+[14.575997] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.576142] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.577233] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.578526] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.578898] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[14.579220] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[14.579467] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[14.579705] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__type_support.cpp\n'}
+[14.579877] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__type_support.cpp\n'}
+[14.580368] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/pick_up__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.580871] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/set_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.582578] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.584089] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.585318] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.586554] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.587007] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/pythonpath.sh\n'}
+[14.587446] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/pythonpath.dsv\n'}
+[14.587950] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info\n'}
+[14.588307] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.588802] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.589223] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.589556] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.589976] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces\n'}
+[14.590334] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.590797] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.591280] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py\n'}
+[14.591725] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.592531] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.593137] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action\n'}
+[14.593607] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_pick_up.py\n'}
+[14.594048] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_set_angle.py\n'}
+[14.594486] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py\n'}
+[14.594923] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_set_angle_s.c\n'}
+[14.595513] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_pick_up_s.c\n'}
+[14.595987] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/libaction_interfaces__rosidl_generator_py.so\n'}
+[14.596521] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.597102] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.653408] (-) TimerEvent: {}
+[14.689623] (action_interfaces) StdoutLine: {'line': b"Listing '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces'...\n"}
+[14.689940] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py'...\n"}
+[14.690106] (action_interfaces) StdoutLine: {'line': b"Listing '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action'...\n"}
+[14.690254] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py'...\n"}
+[14.690396] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_pick_up.py'...\n"}
+[14.690535] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_set_angle.py'...\n"}
+[14.699573] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.700857] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.701552] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.702807] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.703500] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.704871] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.706068] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so\n'}
+[14.707411] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.707786] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/action/SetAngle.idl\n'}
+[14.708221] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/action/PickUP.idl\n'}
+[14.708615] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/action/SetAngle.action\n'}
+[14.709020] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/action/PickUP.action\n'}
+[14.709453] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/package_run_dependencies/action_interfaces\n'}
+[14.709942] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/parent_prefix_path/action_interfaces\n'}
+[14.710359] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.sh\n'}
+[14.710777] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.711236] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/path.sh\n'}
+[14.711592] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/environment/path.dsv\n'}
+[14.711982] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.bash\n'}
+[14.712391] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.sh\n'}
+[14.712791] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.zsh\n'}
+[14.713385] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/local_setup.dsv\n'}
+[14.713780] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.dsv\n'}
+[14.714329] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/ament_index/resource_index/packages/action_interfaces\n'}
+[14.715193] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.715748] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.716691] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.717145] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.717927] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.718276] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.719019] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.719329] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.720151] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.720976] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.721323] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.721965] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.722318] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.722947] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.723235] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.723937] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.724290] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.724677] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.725043] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.725384] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.725742] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.726174] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.726523] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.726858] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.727211] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig.cmake\n'}
+[14.727552] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig-version.cmake\n'}
+[14.727970] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cdwiench/Desktop/Robotics/CobotMyRobot/install/action_interfaces/share/action_interfaces/package.xml\n'}
+[14.732054] (action_interfaces) CommandEnded: {'returncode': 0}
+[14.758235] (-) TimerEvent: {}
+[14.859241] (-) TimerEvent: {}
+[14.959646] (-) TimerEvent: {}
+[14.980425] (action_interfaces) JobEnded: {'identifier': 'action_interfaces', 'rc': 0}
+[14.981703] (-) EventReactorShutdown: {}

@@ -1,2 +1,4 @@
+action/PickUP.action
+action/PickUP.idl
 action/SetAngle.action
 action/SetAngle.idl

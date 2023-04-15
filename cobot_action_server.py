@@ -28,15 +28,15 @@ class SetAngleActionServer(Node):
         self.get_logger().info('Executing goal...')
 
         ####
-        mycobot.set_gripper_state(0, 50)
-        mycobot.wait(3)
+        # mycobot.set_gripper_state(0, 50)
+        # mycobot.wait(3)
         mycobot.send_angles(goal_handle.request.angles, goal_handle.request.speed)
-        mycobot.wait(1)
-        mycobot.send_coords([288.9,-87.5,190.9,167.43,0.6,-90.22], 50, 0)
-        mycobot.wait(2)
-        mycobot.send_coords([288.9,-87.5,190.9,150.07,0.6,-90.22], 50, 0)
-        mycobot.wait(5)
-        mycobot.set_gripper_state(1, 50)
+        # mycobot.wait(1)
+        # mycobot.send_coords([288.9,-87.5,190.9,167.43,0.6,-90.22], 50, 0)
+        # mycobot.wait(2)
+        # mycobot.send_coords([288.9,-87.5,190.9,150.07,0.6,-90.22], 50, 0)
+        # mycobot.wait(5)
+        # mycobot.set_gripper_state(1, 50)
         ####
         while(mycobot.is_moving()):
             print("Cobot in motion")
