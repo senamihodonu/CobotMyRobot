@@ -51,7 +51,7 @@ class SetAngleActionServer(Node):
 class GetAngleActionServer(Node):
 
     def __init__(self):
-        super().__init__('get_coord_action_server')
+        super().__init__('get_angle_action_server')
         self._action_server = ActionServer(
             self,
             GetAngle,
